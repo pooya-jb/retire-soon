@@ -15,13 +15,12 @@
 4. Plan for your golden years!
 
 🛠️ **Tech Stack:**
-React | Node.js | MongoDB | (Add other relevant technologies)
+React | Node.js | MongoDB | 
 
 🤝 **Contributing:**
-We welcome contributions! Follow our [contribution guidelines](link-to-contributing.md).
+We welcome contributions!
 
 📄 **License:**
-This project is licensed under the [MIT License](link-to-license.md).
 
 📧 **Contact:**
-For questions or support, reach out to us at [your-email@example.com].
+For questions or support, reach out to us at [jb.pooya@gmail.com].
