@@ -1,0 +1,25 @@
+.container {
+  margin: 0 auto;
+  width: fit-content;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 0.3rem;
+}
+
+.table {
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  font-size: 2rem;
+  border: 1px solid rgba(201, 201, 201, 0.33);
+  width: 60rem;
+  padding: 0.5rem 1rem;
+  justify-content: space-between;
+}
+
+.row div {
+  flex: 1;
+  text-align: center;
+}

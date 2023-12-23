@@ -1,0 +1,21 @@
+.app {
+}
+
+.app h1 {
+  text-align: center;
+  color: rgb(16, 117, 16);
+}
+.row {
+  display: flex;
+  gap: 1rem;
+  border-bottom: 1px solid gray;
+  padding: 0.5rem 1rem;
+}
+.row :first-child {
+  width: 70%;
+  border-right: 1px solid gray;
+}
+
+.bold {
+  font-weight: bold;
+}

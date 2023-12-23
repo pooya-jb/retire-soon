@@ -1,0 +1,32 @@
+.budgets {
+  display: flex;
+  flex-direction: column;
+}
+
+.beginning {
+  text-align: center;
+  font-size: 1.4rem;
+  color: gray;
+  margin-top: 1rem;
+}
+
+.expensesText {
+  text-align: center;
+  font-weight: bold;
+  color: rgb(70, 70, 70);
+  margin-top: 2rem;
+}
+
+.expensesList {
+  text-align: center;
+  color: gray;
+  margin-top: 2rem;
+}
+
+.redText {
+  color: red;
+}
+
+.greenText {
+  color: green;
+}

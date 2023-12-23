@@ -1,0 +1,61 @@
+.title {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-decoration: underline;
+  text-decoration-color: green;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.form label {
+  color: gray;
+  font-size: 1.4rem;
+}
+
+.form input {
+  padding: 0.5rem 1rem;
+  border: none;
+  width: 70%;
+}
+
+.datePicker {
+  width: 100%;
+  cursor: pointer;
+}
+
+input[type='date']::-webkit-calendar-picker-indicator {
+  filter: invert(1); /* Invert the colors (white becomes black) */
+  cursor: pointer; /* Change the cursor to a pointer when hovering over the icon */
+}
+
+.dropdown {
+  background: white;
+  width: 70%;
+  padding: 0.5rem 1rem;
+
+  color: black;
+}
+
+.submitBTN {
+  padding: 1rem 1rem;
+  width: 40%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background: rgb(17, 120, 17);
+  border: none;
+  border-radius: 0.3rem;
+  transition: all 300ms;
+}
+
+.submitBTN:hover {
+  background: rgb(190, 161, 0);
+}
+
+.error {
+  color: red;
+}
